@@ -6,15 +6,15 @@ const Home = () => {
     <div>
       <div className="jumbotron">
         <h1 className="display-4">Welcome!</h1>
+        <p className="lead">This site is currently under development.</p>
         <p className="lead">
-          This site is a simple portfolio site built with React and Bootstrap. I
-          will use this site to showcase my work and share my thoughts.
+          I created this site to display my projects, develop new skills, and
+          share my passion for software development.
         </p>
-        <hr className="my-4" />
-        <p>
+        <p className="lead">
           Currently, I am working on a multiplayer golf party game for a
-          university course. Im using Unity and C# to develop a seamless and
-          enjoyable online experience.
+          university course. Im using the Unity game engine and C# to develop a
+          seamless and enjoyable online experience.
         </p>
         <a
           className="btn btn-primary btn-lg"
