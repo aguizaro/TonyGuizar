@@ -9,20 +9,39 @@ const Home = () => {
         <p className="lead">This site is currently under development.</p>
         <p className="lead">
           I created this site to display my projects, develop new skills, and
-          share my passion for software development.
+          share things that interest me.
         </p>
         <p className="lead">
           Currently, I am working on a multiplayer golf party game for a
-          university course. Im using the Unity game engine and C# to develop a
-          seamless and enjoyable online experience.
+          university course. Im using{" "}
+          <a
+            href="https://unity.com/solutions/gaming-services"
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            {" "}
+            Unity Gaming Services
+          </a>{" "}
+          and C# to develop a seamless and enjoyable online experience.
         </p>
-        <a
-          className="btn btn-primary btn-lg"
-          href="https://aguizaro.github.io/GolfSite/"
-          role="button"
-        >
-          Check it out
-        </a>
+        <div className="btngroup">
+          <a
+            className="btn btn-primary btn-lg"
+            href="https://aguizaro.github.io/GolfSite/"
+            target="_blank"
+            role="button"
+          >
+            Check it out
+          </a>
+          <a
+            className="btn btn-lg"
+            id="proj-btn"
+            href="./#/projects"
+            role="button"
+          >
+            View Projects
+          </a>
+        </div>
       </div>
     </div>
   );

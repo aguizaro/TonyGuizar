@@ -6,3 +6,18 @@
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+#proj-btn {
+    background-color: rgb(174, 217, 255);
+    margin: 10px;
+}
+
+#proj-btn:hover {
+    background-color: rgb(84, 174, 252);
+}
+
+.btngroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

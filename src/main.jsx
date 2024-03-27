@@ -9,6 +9,7 @@ import About from "./components/about/about.jsx";
 import Projects from "./components/projects/projects.jsx";
 import Contact from "./components/contact/contact.jsx";
 import Footer from "./components/footer/footer.jsx";
+import Futplanner from "./components/futplanner/futplanner.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -19,6 +20,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/projects" Component={Projects} />
         <Route path="/about" Component={About} />
         <Route path="/contact" Component={Contact} />
+        <Route path="/futplanner" Component={Futplanner} />
+        <Route path="/intherough" Component={Futplanner} />
       </Routes>
       <Footer />
     </HashRouter>

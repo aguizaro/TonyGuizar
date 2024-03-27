@@ -1,6 +1,8 @@
 //import React from 'react';
 import "./projects.css";
 
+// Bootstrap Layout inspired by: https://getbootstrap.com/docs/4.0/examples/album/
+
 const Projects = () => {
   return (
     <div id="projects">
@@ -15,150 +17,94 @@ const Projects = () => {
                   in Unity using C# and have built web applications using
                   various tools and technologies.
                 </p>
-                <p className="lead-hidden">
-                  Send me a message. I would love to hear what you think.
-                </p>
-                <a
-                  className="btn btn-primary btn-lg"
-                  href="./#/contact"
-                  role="button"
-                >
-                  Contact Me
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="card mb-4 box-shadow">
+                <a href="./#/futplanner">
+                  <img
+                    className="card-img-top"
+                    src="public/img/FP1.png"
+                    alt="Card image cap"
+                  />
                 </a>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="card mb-4 box-shadow">
-                <img
-                  className="card-img-top"
-                  src="https://images.pexels.com/photos/19960599/pexels-photo-19960599/free-photo-of-a-view-of-the-ocean-from-above-with-clouds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt="Card image cap"
-                />
                 <div className="card-body">
                   <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Never miss your favorite football matches again with{" "}
+                    <em>FutPlanner</em>! This web application allows the user to
+                    select their favorite football teams and leagues, then will
+                    create a personalized planner of upcoming matches that can
+                    be imported into any Google account.
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <button
                         type="button"
-                        className="btn btn-sm btn-outline-secondary"
+                        onClick={() =>
+                          (window.location.href = "./#/futplanner")
+                        }
+                        className="btn btn-sm btn-outline-primary"
                       >
                         View
                       </button>
                       <button
                         type="button"
-                        className="btn btn-sm btn-outline-secondary"
+                        onClick={() =>
+                          (window.location.href =
+                            "https://www.github.com/aguizaro/futplanner")
+                        }
+                        className="btn btn-sm btn-outline-success"
                       >
-                        Edit
+                        Source
                       </button>
                     </div>
-                    <small className="text-muted">9 mins</small>
+                    <small className="text-muted">JAN 2024</small>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="card mb-4 box-shadow">
-                <img
-                  className="card-img-top"
-                  src="https://images.pexels.com/photos/19960599/pexels-photo-19960599/free-photo-of-a-view-of-the-ocean-from-above-with-clouds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt="Card image cap"
-                />
+                <a href="./#/InTheRough">
+                  <img
+                    className="card-img-top"
+                    src="public/img/FP0.png"
+                    alt="Card image cap"
+                  />
+                </a>
                 <div className="card-body">
                   <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    <em> In The Rough </em> is a global multiplayer golf party
+                    game being developed for a univeristy course. The team and I
+                    hope to deliver a seamless and entertaining party game
+                    experience. I am working on the networking and deployment
+                    for this project.
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <button
                         type="button"
-                        className="btn btn-sm btn-outline-secondary"
+                        onClick={() =>
+                          (window.location.href = "./#/InTheRough")
+                        }
+                        className="btn btn-sm btn-outline-primary"
                       >
                         View
                       </button>
                       <button
                         type="button"
-                        className="btn btn-sm btn-outline-secondary"
+                        onClick={() =>
+                          (window.location.href =
+                            "https://aguizaro.github.io/GolfSite/")
+                        }
+                        className="btn btn-sm btn-outline-success"
                       >
-                        Edit
+                        Source
                       </button>
                     </div>
-                    <small className="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="card mb-4 box-shadow">
-                <img
-                  className="card-img-top"
-                  src="https://images.pexels.com/photos/19960599/pexels-photo-19960599/free-photo-of-a-view-of-the-ocean-from-above-with-clouds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button
-                        type="button"
-                        className="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        className="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small className="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="card mb-4 box-shadow">
-                <img
-                  className="card-img-top"
-                  src="https://images.pexels.com/photos/19960599/pexels-photo-19960599/free-photo-of-a-view-of-the-ocean-from-above-with-clouds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button
-                        type="button"
-                        className="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        className="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small className="text-muted">9 mins</small>
+                    <small className="text-muted">MAR 2024</small>
                   </div>
                 </div>
               </div>

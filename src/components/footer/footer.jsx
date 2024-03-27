@@ -1,14 +1,10 @@
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faLinkedin,
-  faGithub,
-  faItchIo,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faLinkedin, faGithub, faItchIo, faEnvelope);
+library.add(faLinkedin, faGithub, faEnvelope);
 
 const Footer = () => {
   return (
@@ -16,7 +12,7 @@ const Footer = () => {
       <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
         <div className="icons">
           <a
-            href="https://www.linkedin.com/in/tony-guizar/"
+            href="https://www.linkedin.com/in/antonioguizarorozco/"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,10 +24,6 @@ const Footer = () => {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} size="3x" />
-          </a>
-
-          <a href="https://aguizaro.itch.io/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faItchIo} size="3x" />
           </a>
 
           <a href="mailto:aguizaro@ucsc.edu">

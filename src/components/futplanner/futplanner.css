@@ -1,0 +1,49 @@
+#futplanner-title {
+    font-size: 3.5em;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(16, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#leftcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#rightcol {}
+
+.mobile {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: center;
+
+}
+
+.mobile img {
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.mobile video {
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+
+}
+
+.futplanner-text {
+    font-size: 1.1em;
+    display: inline-block;
+}
