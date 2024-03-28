@@ -1,9 +1,8 @@
 .jumbotron {
-    margin: 40px;
+    margin: 40px 20px 40px 20px;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
     color: var(--bs-custom-color-text-emphasis);
 }
@@ -29,4 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        margin: 20px 10px 20px 10px;
+    }
 }

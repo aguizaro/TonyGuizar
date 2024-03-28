@@ -1,6 +1,5 @@
 .card-text {
     color: var(--bs-custom-color-text-emphasis);
-
 }
 
 .card {
@@ -11,8 +10,4 @@
 
 .text-muted {
     color: var(--bs-custom-color-text-emphasis) !important;
-}
-
-.root {
-    width: 100vw;
 }

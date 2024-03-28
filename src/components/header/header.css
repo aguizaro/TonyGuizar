@@ -1,5 +1,5 @@
 #title {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -30,11 +30,15 @@ Nav {
 
 @media (max-width: 768px) {
     #title {
-        font-size: 1.5em;
+        font-size: 2em;
         margin-left: 20px;
     }
 
-    header a {
-        margin-left: 20px;
+    .link {
+        margin-left: 10px;
+    }
+
+    #theme-dropdown {
+        margin-left: 10px;
     }
 }

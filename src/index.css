@@ -1,8 +1,21 @@
+body {
+    min-width: 390px;
+    background-color: var(--bs-custom-color-bg-subtle);
+}
+
+.root {
+    width: 100vw;
+}
+
 .container {
     max-width: 100%;
 }
 
-body {
-    min-width: 390px;
-    background-color: var(--bs-custom-color-bg-subtle);
+.jumbotron {
+    margin: 40px 20px 40px 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    color: var(--bs-custom-color-text-emphasis);
 }

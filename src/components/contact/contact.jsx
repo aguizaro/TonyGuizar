@@ -1,5 +1,6 @@
 //import React from 'react';
 import "./contact.css";
+//import { useEffect } from "react";
 
 const Contact = () => {
   return (

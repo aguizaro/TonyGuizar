@@ -7,8 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "../../utils/theme-color";
 
 const Header = () => {
-  // eslint-disable-next-line no-unused-vars
-  const [theme, setTheme] = useState("auto");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ?? "auto");
 
   const handleThemeChange = (selectedTheme) => {
     //set theme to device default
@@ -21,6 +20,7 @@ const Header = () => {
             ? "dark"
             : "light"
         );
+      setTheme(selectedTheme);
       localStorage.setItem("theme", selectedTheme);
       return;
     }
@@ -59,7 +59,6 @@ const Header = () => {
                 title="Theme"
                 id="theme-dropdown"
                 className="basic-dropdown"
-                style={{ color: "black" }}
               >
                 <NavDropdown.Item
                   onClick={() => handleThemeChange("light")}

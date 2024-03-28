@@ -1,25 +1,21 @@
-//import React from 'react';
 import "./projects.css";
-
 // Bootstrap Layout inspired by: https://getbootstrap.com/docs/4.0/examples/album/
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div>
       <div className="album py-3">
+        <div className="jumbotron">
+          <h1 className="display-4">Projects</h1>
+          <p className="lead-hidden">
+            Here are some of my projects. I have created games primarily in
+            Unity using C# and have built web applications using various tools
+            and technologies.
+          </p>
+        </div>
+
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <div className="jumbotron">
-                <h1 className="display-4">Projects</h1>
-                <p className="lead-hidden">
-                  Here are some of my projects. I have created games primarily
-                  in Unity using C# and have built web applications using
-                  various tools and technologies.
-                </p>
-              </div>
-            </div>
-
             <div className="col-md-6">
               <div className="card mb-4 box-shadow">
                 <a href="./#/futplanner">
