@@ -1,19 +1,28 @@
 .jumbotron {
-    margin: 20px;
+    margin: 40px;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    color: var(--bs-custom-color-text-emphasis);
+}
+
+#current-proj-btn {
+    background-color: #8e7af3;
+}
+
+#current-proj-btn:hover {
+    background-color: #b9a3ff;
 }
 
 #proj-btn {
-    background-color: rgb(174, 217, 255);
     margin: 10px;
+    background-color: #608bd9;
 }
 
 #proj-btn:hover {
-    background-color: rgb(84, 174, 252);
+    background-color: #a3b9ff;
 }
 
 .btngroup {

@@ -1,8 +1,16 @@
-#projects-jumbotron {
-    margin: 0px 0 20px 0;
+.card-text {
+    color: var(--bs-custom-color-text-emphasis);
+
+}
+
+.card {
+    background-color: var(--bs-custom-color-bg-subtle);
     border-radius: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.text-muted {
+    color: var(--bs-custom-color-text-emphasis) !important;
 }
 
 .root {

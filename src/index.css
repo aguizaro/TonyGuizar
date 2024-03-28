@@ -3,5 +3,6 @@
 }
 
 body {
-    min-width: 390px
+    min-width: 390px;
+    background-color: var(--bs-custom-color-bg-subtle);
 }

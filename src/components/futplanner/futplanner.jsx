@@ -8,20 +8,29 @@ const Futplanner = () => {
           Futplanner
         </h1>
         <div className="row">
-          <div className="col-md-7" id="leftcol">
+          <div className="col-md-6" id="leftcol">
             <video controls>
-              <source src="public/img/FPdemo.mp4" type="video/mp4" />
+              <source
+                src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemo.mp4?raw=true"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
             <div className="mobile">
-              <img src="public/img/FP3.png" alt="Futplanner" />
+              <img
+                src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP3.png?raw=true"
+                alt="Futplanner"
+              />
               <video controls>
-                <source src="public/img/FPdemoMobile.mp4" type="video/mp4" />
+                <source
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemoMobile.mp4?raw=true"
+                  type="video/mp4"
+                />
                 Your browser does not support the video tag.
               </video>
             </div>
           </div>
-          <div className="col-md-5" id="rightcol">
+          <div className="col-md-6" id="rightcol">
             <div className="jumbotron" id="futplanner-jumbotron">
               <p className="futplanner-text">
                 I love watching and participating in sports, especially
@@ -66,7 +75,15 @@ const Futplanner = () => {
                 defined data in order to display a personalized calendar.
               </p>
               <p className="futplanner-text">
-                The back end API uses a{" "}
+                The back end API utilizes{" "}
+                <a
+                  href="https://expressjs.com/"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
+                  ExpressJS
+                </a>{" "}
+                to handle HTTP requests and define routes on a{" "}
                 <a
                   href="https://nodejs.org/"
                   target="_blank"
@@ -74,7 +91,7 @@ const Futplanner = () => {
                 >
                   NodeJS
                 </a>{" "}
-                server with a{" "}
+                server, integrated with a{" "}
                 <a
                   href="https://www.mongodb.com/"
                   target="_blank"
@@ -83,7 +100,7 @@ const Futplanner = () => {
                   MongoDB
                 </a>{" "}
                 database for storing league and team data, as well as user data
-                for an Oauth2 Google Calendar client. This API adheres to
+                for an OAuth2 Google Calendar client. This API adheres to
                 RESTful principles, but this was my first time creating a full
                 stack web application, so I am sure I made plenty of mistakes
                 and I welcome any feedback that may help me learn and improve

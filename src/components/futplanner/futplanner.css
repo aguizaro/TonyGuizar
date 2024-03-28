@@ -1,14 +1,15 @@
 #futplanner-title {
     font-size: 3.5em;
     margin: 20px;
+    color: var(--bs-custom-color-text-emphasis);
 }
 
 video {
     width: 100%;
     border-radius: 20px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(16, 0, 0, 0.1);
-    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
+    background-color: var(--bs-custom-color-border-subtle);
 }
 
 #leftcol {
@@ -30,15 +31,18 @@ video {
 .mobile img {
     width: 40%;
     border-radius: 20px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
+    background-color: var(--bs-custom-color-border-subtle);
     margin: 10px;
 }
 
 .mobile video {
     width: 40%;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
+    background-color: var(--bs-custom-color-border-subtle);
     margin: 10px;
 
 }

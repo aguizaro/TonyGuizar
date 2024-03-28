@@ -1,18 +1,31 @@
-header {
-    background-color: #f8f8f8;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #title {
     font-size: 2em;
     font-weight: bold;
-    color: #333;
     margin: 0;
     padding: 0;
     display: inline-block;
+    color: var(--bs-custom-color-text-emphasis);
+}
+
+Nav {
+    background: linear-gradient(to bottom, var(--bs-custom-color-border-subtle) 65%, var(--bs-custom-color-bg-subtle) 100%);
+
+}
+
+.link {
+    color: var(--bs-custom-color-text-emphasis);
+}
+
+#theme-dropdown {
+    color: var(--bs-custom-color-text-emphasis);
+}
+
+.link:hover {
+    color: rgb(181, 147, 255);
+}
+
+#theme-dropdown:hover {
+    color: rgb(181, 147, 255);
 }
 
 @media (max-width: 768px) {

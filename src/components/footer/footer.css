@@ -3,10 +3,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #f4f4f4;
 }
 
 .icons a {
     margin: 10px;
-    color: #333;
+    color: var(--bs-custom-color-text-emphasis) !important;
+
 }

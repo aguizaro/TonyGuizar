@@ -6,11 +6,11 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div id="projects">
-      <div className="album py-3 bg-light">
+      <div className="album py-3">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="jumbotron" id="projects-jumbotron">
+              <div className="jumbotron">
                 <h1 className="display-4">Projects</h1>
                 <p className="lead-hidden">
                   Here are some of my projects. I have created games primarily
@@ -25,8 +25,9 @@ const Projects = () => {
                 <a href="./#/futplanner">
                   <img
                     className="card-img-top"
-                    src="public/img/FP1.png"
+                    src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP1.png?raw=true"
                     alt="Card image cap"
+                    loading="lazy"
                   />
                 </a>
                 <div className="card-body">
@@ -70,8 +71,9 @@ const Projects = () => {
                 <a href="./#/InTheRough">
                   <img
                     className="card-img-top"
-                    src="public/img/FP0.png"
+                    src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP0.png?raw=true"
                     alt="Card image cap"
+                    loading="lazy"
                   />
                 </a>
                 <div className="card-body">

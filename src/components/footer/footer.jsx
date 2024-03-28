@@ -1,12 +1,22 @@
-import "./footer.css";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
-library.add(faLinkedin, faGithub, faEnvelope);
+import {
+  faEnvelope as faEnvelopeSolid,
+  faEnvelope as faEnvelopeRegular,
+} from "@fortawesome/free-regular-svg-icons";
+import "./footer.css";
 
 const Footer = () => {
+  const [isLightTheme, setIsLightTheme] = useState(true);
+
+  // Function to check the current theme
+  useEffect(() => {
+    const htmlElement = document.querySelector("html");
+    const theme = htmlElement.getAttribute("data-bs-theme");
+    setIsLightTheme(theme === "light");
+  }, []);
+
   return (
     <div className="container">
       <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
@@ -27,7 +37,10 @@ const Footer = () => {
           </a>
 
           <a href="mailto:aguizaro@ucsc.edu">
-            <FontAwesomeIcon icon={faEnvelope} size="3x" />
+            <FontAwesomeIcon
+              icon={isLightTheme ? faEnvelopeSolid : faEnvelopeRegular}
+              size="3x"
+            />
           </a>
         </div>
       </footer>

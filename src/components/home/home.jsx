@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <div>
       <div className="jumbotron">
-        <h1 className="display-4">Welcome!</h1>
+        <h1 className="display-4 ">Welcome!</h1>
         <p className="lead">This site is currently under development.</p>
-        <p className="lead">
+        <p className="lead text-default">
           I created this site to display my projects, develop new skills, and
           share things that interest me.
         </p>
@@ -26,7 +26,8 @@ const Home = () => {
         </p>
         <div className="btngroup">
           <a
-            className="btn btn-primary btn-lg"
+            className="btn btn-lg"
+            id="current-proj-btn"
             href="https://aguizaro.github.io/GolfSite/"
             target="_blank"
             role="button"
