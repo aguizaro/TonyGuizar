@@ -10,7 +10,7 @@ const About = () => {
           <p className="lead text-center">
             I am a software developer with a passion for creating games and
             building practical tools. I have experience with Unity, C#, and
-            JavaScript for game development. I am currently persuing a BS in
+            JavaScript for game development. I am currently pursuing a BS in
             Computer Science: Game Design at UC Santa Cruz and will be
             graduating in the summer of 2024. Currently, I am working on a
             multiplayer golf party game for a university course. I am using

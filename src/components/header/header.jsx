@@ -5,6 +5,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "../../utils/theme-color";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleHalfStroke } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") ?? "auto");
@@ -56,9 +58,9 @@ const Header = () => {
                 Contact
               </Nav.Link>
               <NavDropdown
-                title="Theme"
-                id="theme-dropdown"
+                title={<FontAwesomeIcon icon={faCircleHalfStroke} />}
                 className="basic-dropdown"
+                drop={window.innerWidth < 992 ? "end" : "down"}
               >
                 <NavDropdown.Item
                   onClick={() => handleThemeChange("light")}

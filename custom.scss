@@ -5,7 +5,8 @@
 
 // Add a custom color to $theme-colors
 $custom-colors: (
-    "custom-color": rgb(32, 30, 45)
+    "custom-color": rgb(32, 30, 45),
+    "custom-color-light": rgb(53, 50, 74)
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
