@@ -18,5 +18,5 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
     color: var(--bs-custom-color-text-emphasis);
-    background-color: var(--bs-custom-color-bg-subtle);
+    background-color: var(--bs-custom-color-border-subtle);
 }

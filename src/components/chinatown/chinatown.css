@@ -1,0 +1,40 @@
+#chinatown-title {
+    font-size: 3.5em;
+    margin: 20px;
+    color: var(--bs-custom-color-text-emphasis);
+}
+
+.chinatown-media {
+    width: 50%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: var(--bs-custom-color-border-subtle);
+}
+
+.media-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
+    background-color: var(--bs-custom-color-border-subtle);
+    border-radius: 20px;
+}
+
+#chinatown-jumbotron {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .chinatown-media {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .media-row {
+        flex-direction: column;
+    }
+
+}

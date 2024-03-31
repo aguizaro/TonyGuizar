@@ -8,29 +8,18 @@ const Futplanner = () => {
           Futplanner
         </h1>
         <div className="row">
-          <div className="col-md-6" id="leftcol">
-            <video controls>
+          <div className="col-md-9" id="leftcol">
+            <video
+              className="vid"
+              controls
+              poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP1.png?raw=true"
+            >
               <source
                 src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemo.mp4?raw=true"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
             </video>
-            <div className="mobile">
-              <img
-                src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP3.png?raw=true"
-                alt="Futplanner"
-              />
-              <video controls>
-                <source
-                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemoMobile.mp4?raw=true"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-          <div className="col-md-6" id="rightcol">
             <div className="jumbotron" id="futplanner-jumbotron">
               <p className="futplanner-text">
                 I love watching and participating in sports, especially
@@ -144,6 +133,21 @@ const Futplanner = () => {
                 about web development. I still use this web application today
                 when planning when to watch my favorite teams play.
               </p>
+            </div>
+          </div>
+          <div className="col-md-3" id="rightcol">
+            <div className="mobile">
+              <img
+                src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP3.png?raw=true"
+                alt="Futplanner"
+              />
+              <video controls className="vid">
+                <source
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemoMobile.mp4?raw=true"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>

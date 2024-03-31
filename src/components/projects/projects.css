@@ -1,9 +1,14 @@
+.proj img {
+    border-radius: 20px;
+
+}
+
 .card-text {
     color: var(--bs-custom-color-text-emphasis);
 }
 
 .card {
-    background-color: var(--bs-custom-color-bg-subtle);
+    background-color: var(--bs-custom-color-border-subtle);
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
 }

@@ -18,6 +18,7 @@ const Home = () => {
             href="https://unity.com/solutions/gaming-services"
             target="_blank"
             style={{ textDecoration: "none" }}
+            rel="noreferrer"
           >
             {" "}
             Unity Gaming Services
@@ -30,6 +31,7 @@ const Home = () => {
             id="current-proj-btn"
             href="https://aguizaro.github.io/GolfSite/"
             target="_blank"
+            rel="noreferrer"
             role="button"
           >
             Check it out

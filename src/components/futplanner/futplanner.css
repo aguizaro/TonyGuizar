@@ -4,7 +4,7 @@
     color: var(--bs-custom-color-text-emphasis);
 }
 
-video {
+.vid {
     width: 100%;
     border-radius: 20px;
     padding: 5px;
@@ -23,13 +23,13 @@ video {
 
 .mobile {
     display: flex;
-    align-items: space-evenly;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 .mobile img {
-    width: 40%;
+    width: 100%;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
@@ -37,8 +37,8 @@ video {
     margin: 10px;
 }
 
-.mobile video {
-    width: 40%;
+.mobile .vid {
+    width: 100%;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
@@ -50,4 +50,23 @@ video {
 .futplanner-text {
     font-size: 1.1em;
     display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+    .mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .mobile img {
+        width: 45%;
+    }
+
+    .mobile .vid {
+        width: 45%;
+    }
+
 }
