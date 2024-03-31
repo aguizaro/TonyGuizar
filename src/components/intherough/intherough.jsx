@@ -88,9 +88,9 @@ const InTheRough = () => {
         <div className="media-row">
           <video
             controls
-            src="public/img/ITRswing.mp4"
+            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing.mp4?raw=true"
             className="intherough-media"
-            poster="public/img/ITRswing-placeholder.png"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing-placeholder.png?raw=true"
             loop={true}
             autoPlay={true}
           >
@@ -172,17 +172,17 @@ const InTheRough = () => {
         <div className="media-row">
           <video
             controls
-            src="public/img/Sprint1_VideoMontage.mp4"
+            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/Sprint1_VideoMontage.mp4?raw=true"
             alt="Video Montage"
             className="intherough-media"
-            poster="public/img/Sprint1_VideoMontage-placeholder.png"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/Sprint1_VideoMontage-placeholder.png?raw=true"
           />
           <video
             controls
-            src="public/img/CI-DEMO.mp4"
+            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CI-DEMO.mp4?raw=true"
             alt="CI/CD Demo"
             className="intherough-media"
-            poster="public/img/CI-DEMO-placeholder.png"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CI-DEMO-placeholder.png?raw=true"
           />
         </div>
       </div>
