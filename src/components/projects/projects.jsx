@@ -1,4 +1,5 @@
 import "./projects.css";
+//import LazyImage from "../LazyImage/LazyImage";
 // Bootstrap Layout inspired by: https://getbootstrap.com/docs/4.0/examples/album/
 
 const Projects = () => {
@@ -20,7 +21,7 @@ const Projects = () => {
               <a href="./#/InTheRough">
                 <img
                   className="card-img-top"
-                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR0.png?raw=true"
+                  src="public/img/ITR0.png"
                   alt="Card image cap"
                   loading="lazy"
                 />

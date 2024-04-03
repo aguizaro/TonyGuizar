@@ -12,7 +12,7 @@ const Home = () => {
           share things that interest me.
         </p>
         <p className="lead">
-          Currently, I am working on a multiplayer golf party game for a
+          Currently, I am working on an online multiplayer golf party game for a
           university course. Im using{" "}
           <a
             href="https://unity.com/solutions/gaming-services"
@@ -23,7 +23,8 @@ const Home = () => {
             {" "}
             Unity Gaming Services
           </a>{" "}
-          and C# to develop a seamless and enjoyable online experience.
+          and C# to develop a seamless and enjoyable online experience that can
+          be played on any modern browser.
         </p>
         <div className="btngroup">
           <a

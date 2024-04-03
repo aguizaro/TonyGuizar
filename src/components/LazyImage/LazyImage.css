@@ -1,0 +1,14 @@
+.lazy-img {
+    width: 100%;
+}
+
+.blurhash {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.blurhash canvas {
+    width: 100%;
+    height: auto !important;
+    border-radius: 20px;
+}

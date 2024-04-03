@@ -92,7 +92,6 @@ const InTheRough = () => {
             className="intherough-media"
             poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing-placeholder.png?raw=true"
             loop={true}
-            autoPlay={true}
           >
             {" "}
             Your browser does not suport the video tag
@@ -158,7 +157,7 @@ const InTheRough = () => {
           <p className="intherough-text">
             To keep up with our progress, check out our{" "}
             <a
-              href="aguizaro.github.io/GolfSite/"
+              href="https://aguizaro.github.io/GolfSite/"
               target="_blank"
               style={{ textDecoration: "none" }}
               rel="noreferrer"
