@@ -54,9 +54,9 @@
         flex-direction: column;
     }
 
-    .mobile img {
-        width: 100%;
-        margin: 10px 0;
+    .mobile .media-container {
+        width: 100% !important;
+        margin: 10px 0 !important;
     }
 
     .mobile .vid {

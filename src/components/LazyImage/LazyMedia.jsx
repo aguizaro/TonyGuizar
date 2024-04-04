@@ -28,7 +28,7 @@ const LazyImage = ({ src, hash, alt }) => {
 };
 
 // eslint-disable-next-line react/prop-types
-const LazyVideo = ({ src, hash, alt }) => {
+const LazyVideo = ({ src, hash, poster, alt }) => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const LazyVideo = ({ src, hash, alt }) => {
     <div className="media-container">
       {!loaded && <Blurhash className="blurhash" hash={hash} />}
       {loaded && (
-        <video className="vid" controls>
+        <video className="vid" controls poster={poster}>
           <source src={src} type="video/mp4" alt={alt} />
           Your browser does not support the video tag.
         </video>

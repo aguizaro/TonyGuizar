@@ -12,6 +12,7 @@ const stickerPAD = () => {
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP3.mp4?raw=true"
             hash="L68zfREe04#R~9R+9dxZET-BxoOW"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP3-placeholder.png?raw=true"
             alt="stickerpad"
           />
           <LazyImage

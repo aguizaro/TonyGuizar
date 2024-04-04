@@ -88,6 +88,7 @@ const InTheRough = () => {
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing.mp4?raw=true"
             hash="LD72Z~MLtRtS*IVrtSo#yXRitRo|"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing-placeholder.png?raw=true"
             alt="In The Rough"
           />
           <LazyImage
@@ -165,11 +166,13 @@ const InTheRough = () => {
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/Sprint1_VideoMontage.mp4?raw=true"
             hash="L198YEHS0w004LL*_Lo~8wz7sC_J"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/Sprint1_VideoMontage-placeholder.png?raw=true"
             alt="Video Montage"
           />
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CI-DEMO.mp4?raw=true"
             hash="L0264+.8IAof%Nt7oyoeR6xu.8t6"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CI-DEMO-placeholder.png?raw=true"
             alt="CI/CD Demo"
           />
         </div>

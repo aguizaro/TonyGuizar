@@ -12,6 +12,7 @@ const Futplanner = () => {
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemo.mp4?raw=true"
             hash="L055axwP8yF.ynsqVbOk%_SJ%{wP"
+            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP0.png?raw=true"
             alt="Futplanner"
           />
         </div>
@@ -138,6 +139,7 @@ const Futplanner = () => {
             <LazyVideo
               src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemoMobile.mp4?raw=true"
               hash="LEIF6-My00RP00xb~XozIns;ogbG"
+              poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FPdemoMobile-placeholder.png?raw=true"
               alt="Futplanner"
             />
           </div>
