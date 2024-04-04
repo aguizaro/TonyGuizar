@@ -1,3 +1,4 @@
+import { LazyImage, LazyVideo } from "../LazyImage/LazyMedia";
 import "./stickerpad.css";
 
 const stickerPAD = () => {
@@ -8,20 +9,15 @@ const stickerPAD = () => {
           stickerPAD
         </h1>
         <div className="media-row">
-          <video
-            controls
-            src="public/img/SP3.mp4"
-            poster="public/img/SP3-placeholder.png"
+          <LazyVideo
+            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP3.mp4?raw=true"
+            hash="L68zfREe04#R~9R+9dxZET-BxoOW"
             alt="stickerpad"
-            className="stickerpad-media"
-            loading="lazy"
-            loop
           />
-          <img
-            src="public/img/SP2.png"
+          <LazyImage
+            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP2.png?raw=true"
+            hash="LJEMFA.900H=~fxsD;RQ02M|?ZtP"
             alt="stickerpad"
-            className="stickerpad-media"
-            loading="lazy"
           />
         </div>
         <div className="jumbotron" id="stickerpad-jumbotron">

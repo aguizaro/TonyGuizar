@@ -1,0 +1,25 @@
+.media-container {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.blurhash {
+    width: 100% !important;
+    height: 300px !important;
+    /* figure out how to make height auto */
+    border-radius: 20px !important;
+
+}
+
+.blurhash canvas {
+    width: 100% !important;
+    height: 300px !important;
+    /* figure out how to make height auto */
+    border-radius: 20px !important;
+}
+
+.lazy-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}

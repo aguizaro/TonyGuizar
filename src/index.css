@@ -20,3 +20,8 @@ body {
     color: var(--bs-custom-color-text-emphasis);
     background-color: var(--bs-custom-color-border-subtle);
 }
+
+.vid {
+    width: 100%;
+    border-radius: 20px;
+}

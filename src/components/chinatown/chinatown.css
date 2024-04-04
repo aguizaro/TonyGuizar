@@ -4,11 +4,10 @@
     color: var(--bs-custom-color-text-emphasis);
 }
 
-.chinatown-media {
-    width: 50%;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 10px 0;
+.media-row img {
+    padding: 5px !important;
+    height: auto !important;
+    margin: 10px 0 !important;
     background-color: var(--bs-custom-color-border-subtle);
 }
 
@@ -29,8 +28,8 @@
 
 @media screen and (max-width: 768px) {
     .chinatown-media {
-        width: 100%;
-        margin: 0 10px;
+        width: 100% !important;
+        margin: 0 10px !important;
     }
 
     .media-row {

@@ -1,3 +1,4 @@
+import { LazyImage, LazyVideo } from "../LazyImage/LazyMedia";
 import "./intherough.css";
 
 const InTheRough = () => {
@@ -8,17 +9,15 @@ const InTheRough = () => {
           In The Rough
         </h1>
         <div className="media-row">
-          <img
+          <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR1.png?raw=true"
+            hash="LI8}P.Z}PTIxFSMm${v}][b,R=OX"
             alt="In The Rough"
-            className="intherough-media"
-            loading="lazy"
           />
-          <img
+          <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR2.png?raw=true"
+            hash="L5A1Oc0400-o1B-iznpaPW$yquK6"
             alt="In The Rough"
-            className="intherough-media"
-            loading="lazy"
           />
         </div>
         <div className="jumbotron" id="intherough-jumbotron">
@@ -86,21 +85,15 @@ const InTheRough = () => {
         </div>
 
         <div className="media-row">
-          <video
-            controls
+          <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing.mp4?raw=true"
-            className="intherough-media"
-            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing-placeholder.png?raw=true"
-            loop={true}
-          >
-            {" "}
-            Your browser does not suport the video tag
-          </video>
-          <img
-            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR3.png?raw=true"
+            hash="LD72Z~MLtRtS*IVrtSo#yXRitRo|"
             alt="In The Rough"
-            className="intherough-media"
-            loading="lazy"
+          />
+          <LazyImage
+            src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR3.png?raw=true"
+            hash="LsAyAzaKVskDy?aeaJoft,f+jZae"
+            alt="In The Rough"
           />
         </div>
 
@@ -169,19 +162,15 @@ const InTheRough = () => {
         </div>
 
         <div className="media-row">
-          <video
-            controls
+          <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/Sprint1_VideoMontage.mp4?raw=true"
+            hash="L198YEHS0w004LL*_Lo~8wz7sC_J"
             alt="Video Montage"
-            className="intherough-media"
-            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/Sprint1_VideoMontage-placeholder.png?raw=true"
           />
-          <video
-            controls
+          <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CI-DEMO.mp4?raw=true"
+            hash="L0264+.8IAof%Nt7oyoeR6xu.8t6"
             alt="CI/CD Demo"
-            className="intherough-media"
-            poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CI-DEMO-placeholder.png?raw=true"
           />
         </div>
       </div>

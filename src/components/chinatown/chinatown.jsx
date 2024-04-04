@@ -1,4 +1,5 @@
 import "./chinatown.css";
+import { LazyImage } from "../LazyImage/LazyMedia";
 
 const Chinatown = () => {
   return (
@@ -8,17 +9,17 @@ const Chinatown = () => {
           Chinatown 1974
         </h1>
         <div className="media-row">
-          <img
+          <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT0.png?raw=true"
+            hash={"LSFs[]jZbdj]oNfki^jZPXbIkDbH"}
             alt="Chinatown"
             className="chinatown-media"
-            loading="lazy"
           />
-          <img
+          <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT1.gif?raw=true"
+            hash="LFBNv9E9Rl%e9?${xZD.?;Skozs*"
             alt="Chinatown"
             className="chinatown-media"
-            loading="lazy"
           />
         </div>
         <div className="jumbotron" id="chinatown-jumbotron">
@@ -106,14 +107,16 @@ const Chinatown = () => {
           </p>
         </div>
         <div className="media-row">
-          <img
+          <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT2.gif?raw=true"
+            hash="LFAyc15F?WP_[wF_wgr@[cFw$7ah"
             alt="Chinatown"
             className="chinatown-media"
-            loading="lazy"
           />
-          <img
+
+          <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT3.gif?raw=true"
+            hash="LFA-hfD;%KM*Eb$~N2t3.iS*xBNL"
             alt="Chinatown"
             className="chinatown-media"
             loading="lazy"

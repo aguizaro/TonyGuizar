@@ -1,3 +1,4 @@
+import { LazyImage } from "../LazyImage/LazyMedia";
 import "./projects.css";
 //import LazyImage from "../LazyImage/LazyImage";
 // Bootstrap Layout inspired by: https://getbootstrap.com/docs/4.0/examples/album/
@@ -19,11 +20,10 @@ const Projects = () => {
           <div className="col-md-6">
             <div className="card mb-4 box-shadow">
               <a href="./#/InTheRough">
-                <img
-                  className="card-img-top"
-                  src="public/img/ITR0.png"
-                  alt="Card image cap"
-                  loading="lazy"
+                <LazyImage
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR0.png?raw=true"
+                  alt="In The Rough"
+                  hash={"LbBO~jg3H?V@c[Rlnnent+bItmkC"}
                 />
               </a>
               <div className="card-body">
@@ -66,11 +66,10 @@ const Projects = () => {
           <div className="col-md-6">
             <div className="card mb-4 box-shadow">
               <a href="./#/futplanner">
-                <img
-                  className="card-img-top"
+                <LazyImage
                   src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/FP1.png?raw=true"
-                  alt="Card image cap"
-                  loading="lazy"
+                  alt="FutPlanner"
+                  hash={"L055axwP8yF.ynsqVbOk%_SJ%{wP"}
                 />
               </a>
               <div className="card-body">
@@ -113,11 +112,10 @@ const Projects = () => {
           <div className="col-md-6">
             <div className="card mb-4 box-shadow">
               <a href="./#/stickerPAD">
-                <img
-                  className="card-img-top"
+                <LazyImage
                   src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP1.png?raw=true"
-                  alt="Card image cap"
-                  loading="lazy"
+                  alt="stickerPAD"
+                  hash={"LRFhh$^i0K9d}@$%ELNG0dI;-Ws+"}
                 />
               </a>
               <div className="card-body">
@@ -160,11 +158,10 @@ const Projects = () => {
           <div className="col-md-6">
             <div className="card mb-4 box-shadow">
               <a href="./#/Chinatown">
-                <img
-                  className="card-img-top"
+                <LazyImage
                   src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT0.png?raw=true"
-                  alt="Card image cap"
-                  loading="lazy"
+                  alt="Chinatown1974"
+                  hash={"LSFs[]jZbdj]oNfki^jZPXbIkDbH"}
                 />
               </a>
               <div className="card-body">
