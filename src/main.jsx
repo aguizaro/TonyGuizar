@@ -13,6 +13,7 @@ import Futplanner from "./components/futplanner/futplanner.jsx";
 import InTheRough from "./components/intherough/intherough.jsx";
 import stickerPAD from "./components/stickerpad/stickerpad.jsx";
 import Chinatown from "./components/chinatown/chinatown.jsx";
+import ArticleGen from "./components/ArticleGen/ArticleGen.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -23,10 +24,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/projects" Component={Projects} />
         <Route path="/about" Component={About} />
         <Route path="/contact" Component={Contact} />
-        <Route path="/futplanner" Component={Futplanner} />
         <Route path="/intherough" Component={InTheRough} />
-        <Route path="/stickerpad" Component={stickerPAD} />
+        <Route path="/futplanner" Component={Futplanner} />
+        <Route path="/articlegen" Component={ArticleGen} />
         <Route path="/chinatown" Component={Chinatown} />
+        <Route path="/stickerpad" Component={stickerPAD} />
       </Routes>
       <Footer />
     </HashRouter>

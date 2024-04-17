@@ -111,26 +111,28 @@ const Projects = () => {
 
           <div className="col-md-6">
             <div className="card mb-4 box-shadow">
-              <a href="./#/stickerPAD">
+              <a href="./#/ArticleGen">
                 <LazyImage
-                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP1.png?raw=true"
-                  alt="stickerPAD"
-                  hash={"LRFhh$^i0K9d}@$%ELNG0dI;-Ws+"}
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/AG0.png?raw=true"
+                  alt="AlriteGen"
+                  hash={"L04_tiof00ay%Mj[M{ay00WB~qof"}
                 />
               </a>
               <div className="card-body">
                 <p className="card-text">
-                  <em> stickerPAD </em> is a sketch pad program crafted with
-                  Typescript and developed using Vite. It offers a creative
-                  space for users to draw and express themselves. Enjoy the
-                  playful addition of emoji stickers to add a touch of fun to
-                  your sketches!
+                  This is a web application that generates satirical news
+                  articles inspired by current events. Users can select a news
+                  category and generate a random article. The API service is
+                  built with Node, Express, MongoDB and is deployed on an AWS
+                  Lightsail VPS. The front end utilizes Vite and is deployed on
+                  GitHub pages. I utilized NewsAPI to collect real news articles
+                  and leveraged OpenAI API to generate satirical content.
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
                     <button
                       type="button"
-                      onClick={() => (window.location.href = "./#/stickerPAD")}
+                      onClick={() => (window.location.href = "./#/ArticleGen")}
                       className="btn btn-sm btn-outline-primary"
                     >
                       View
@@ -139,7 +141,7 @@ const Projects = () => {
                       type="button"
                       onClick={() =>
                         window.open(
-                          "https://aguizaro.github.io/stickerPAD/",
+                          "https://aguizaro.github.io/ArticleGenerator/",
                           "_blank",
                           "noreferrer"
                         )
@@ -149,7 +151,7 @@ const Projects = () => {
                       Demo
                     </button>
                   </div>
-                  <small className="text-muted">OCT 2023</small>
+                  <small className="text-muted">APR 2024</small>
                 </div>
               </div>
             </div>
@@ -196,6 +198,52 @@ const Projects = () => {
                     </button>
                   </div>
                   <small className="text-muted">JUN 2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="card mb-4 box-shadow">
+              <a href="./#/stickerPAD">
+                <LazyImage
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP1.png?raw=true"
+                  alt="stickerPAD"
+                  hash={"LRFhh$^i0K9d}@$%ELNG0dI;-Ws+"}
+                />
+              </a>
+              <div className="card-body">
+                <p className="card-text">
+                  <em> stickerPAD </em> is a sketch pad program crafted with
+                  Typescript and developed using Vite. It offers a creative
+                  space for users to draw and express themselves. Enjoy the
+                  playful addition of emoji stickers to add a touch of fun to
+                  your sketches!
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button
+                      type="button"
+                      onClick={() => (window.location.href = "./#/stickerPAD")}
+                      className="btn btn-sm btn-outline-primary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        window.open(
+                          "https://aguizaro.github.io/stickerPAD/",
+                          "_blank",
+                          "noreferrer"
+                        )
+                      }
+                      className="btn btn-sm btn-outline-success"
+                    >
+                      Demo
+                    </button>
+                  </div>
+                  <small className="text-muted">OCT 2023</small>
                 </div>
               </div>
             </div>

@@ -90,6 +90,7 @@ const InTheRough = () => {
             hash="LD72Z~MLtRtS*IVrtSo#yXRitRo|"
             poster="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITRswing-placeholder.png?raw=true"
             alt="In The Rough"
+            loop={true}
           />
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/ITR3.png?raw=true"
