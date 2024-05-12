@@ -22,6 +22,7 @@ const LazyImage = ({ src, hash, alt }) => {
         style={{ display: loaded ? "flex" : "none" }}
         src={src}
         alt={alt}
+        loading="lazy"
       />
     </div>
   );

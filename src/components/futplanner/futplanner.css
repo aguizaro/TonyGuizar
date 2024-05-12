@@ -4,11 +4,22 @@
     color: var(--bs-custom-color-text-emphasis);
 }
 
+.futplanner-content {
+    display: flex;
+    margin: 20px;
+}
+
 .futplanner-media {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 20px;
+    width: 50%;
 
+}
+
+#futplanner-jumbotron {
+    width: 50%;
 }
 
 .futplanner-media .vid {
@@ -49,7 +60,8 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
+
     .mobile {
         flex-direction: column;
     }
@@ -62,5 +74,36 @@
     .mobile .vid {
         width: 100%;
         margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .futplanner-media {
+        width: 100%;
+    }
+
+    .mobile {
+        flex-direction: row;
+    }
+
+    .mobile .media-container {
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+
+    .mobile .vid {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .futplanner-content {
+        flex-direction: column;
+    }
+
+
+
+    #futplanner-jumbotron {
+        width: 100%;
     }
 }
