@@ -6,18 +6,22 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div className="proj">
-      <div className="jumbotron">
-        <h1 className="display-4">Projects</h1>
-        <p className="lead-hidden">
-          Here are some of my projects. I have created games primarily in Unity
-          using C# and have built web applications using various tools and
-          technologies.
-        </p>
+      <div className="row justify-content-center">
+        <div className="col-md-11">
+          <div className="jumbotron">
+            <h1 className="display-4">Projects</h1>
+            <p className="lead">
+              Here are some of my projects. I have created games primarily in
+              Unity using C# and have built web applications using various tools
+              and technologies.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="container">
-        <div className="row">
-          <div className="col-md-6">
+        <div className="row justify-content-center">
+          <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/InTheRough">
                 <LazyImage
@@ -63,7 +67,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/futplanner">
                 <LazyImage
@@ -108,8 +112,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/ArticleGen">
                 <LazyImage
@@ -156,8 +159,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/Chinatown">
                 <LazyImage
@@ -202,8 +204,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/stickerPAD">
                 <LazyImage
@@ -248,6 +249,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <div className="col-md-5"></div>
         </div>
       </div>
     </div>

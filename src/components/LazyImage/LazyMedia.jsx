@@ -3,7 +3,7 @@ import { Blurhash } from "react-blurhash";
 import "./LazyMedia.css";
 
 // eslint-disable-next-line react/prop-types
-const LazyImage = ({ src, hash, alt }) => {
+const LazyImage = ({ src, hash, alt, width, height }) => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -23,6 +23,8 @@ const LazyImage = ({ src, hash, alt }) => {
         src={src}
         alt={alt}
         loading="lazy"
+        width={width}
+        height={height}
       />
     </div>
   );

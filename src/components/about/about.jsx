@@ -7,7 +7,8 @@ const About = () => {
       <div id="about">
         <div className="jumbotron">
           <h1 className="display-4">About Me</h1>
-          <p>
+          <br />
+          <p className="lead">
             My name is Antonio Guizar Orozco. I am a software developer with a
             passion for creating games and building practical tools. I grew up
             playing lots of video games, most often as a means of spending time
@@ -19,7 +20,7 @@ const About = () => {
             became aware of the internet and the endless possibilities it
             offered.
           </p>
-          <p>
+          <p className="lead">
             When I got my first computer, was when I began my programming
             journey by working on fun projects like: hosting minecraft servers
             for my friends, configuring Linux instances on bootable USB flash
@@ -54,13 +55,13 @@ const About = () => {
             </a>{" "}
             for media storage and streaming.
           </p>
-          <p>
+          <p className="lead">
             I very much enjoy learning about technology, building cool systems
             and developing useful tools. What really drives me is designing
             interesting solutions for real world problems and building tools
             that people will actually want to use.
           </p>
-          <p>
+          <p className="lead">
             When applying to university, I knew I wanted to pursue a career in
             which I could work on cool projects. I decided to major in Computer
             Science: Game Design B.S. at UC Santa Cruz because I thought
@@ -68,7 +69,7 @@ const About = () => {
             skills as a programmer, as well as, create things I am proud to
             share with others.
           </p>
-          <p>
+          <p className="lead">
             I have since worked on a few video game prototypes and vertical
             slices for university courses and developed some web applications
             and tools for personal projects. Currently, I am on a team working
@@ -87,7 +88,7 @@ const About = () => {
             network functionality, as well as the deployment of our game on the
             web.
           </p>
-          <p>
+          <p className="lead">
             For game development, I have mostly used the Unity game engine and
             C# for 3D experiences, as well as JavaScript/TypeScript and{" "}
             <a
@@ -113,7 +114,7 @@ const About = () => {
             an npc behavior model using behavior trees, and a hierarchical task
             network planner for crafting in Minecraft.
           </p>
-          <p>
+          <p className="lead">
             Beyond game development, I have worked with front end tools like{" "}
             <a
               href="https://react.dev/"
@@ -190,13 +191,13 @@ const About = () => {
             to develop small web applications following RESTful principles,
             manage databases, and handle server side logic.
           </p>
-          <p>
+          <p className="lead">
             I find joy in creating and expanding my knowledge across different
             technologies. I care a lot about the work that I do, and I am always
             looking for new projects to work on and new technologies to learn.
           </p>
-          <p>Thanks for taking the time to read this,</p>
-          <p>Tony</p>
+          <p className="lead">Thanks for taking the time to read this,</p>
+          <p className="lead">Tony</p>
         </div>
       </div>
     </div>
