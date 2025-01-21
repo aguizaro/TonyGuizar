@@ -249,6 +249,98 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <div className="col-md-5">
+            <div className="card mb-4 box-shadow">
+              <a href="./#/prodtimer">
+                <LazyImage
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/PT0.png?raw=true"
+                  alt="Productivity Timer"
+                  hash={"LHAogdsmj:S6pfS|j^som%sCV@XN"}
+                />
+              </a>
+              <div className="card-body">
+                <p className="card-text">
+                  <em> Productivity Timer </em> is a visually engaging web app
+                  designed to boost time management and task tracking. Featuring
+                  customizable tasks with time limits, it uses a dynamic
+                  particle system and P5.js to create a rich and interactive
+                  user experience.
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button
+                      type="button"
+                      onClick={() => (window.location.href = "./#/prodtimer")}
+                      className="btn btn-sm btn-outline-primary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        window.open(
+                          "https://aguizaro.github.io/ProductivityTimer/",
+                          "_blank",
+                          "noreferrer"
+                        )
+                      }
+                      className="btn btn-sm btn-outline-success"
+                    >
+                      Source
+                    </button>
+                  </div>
+                  <small className="text-muted">JUN 2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-5">
+            <div className="card mb-4 box-shadow">
+              <a href="./#/mazegen">
+                <LazyImage
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/MG0.png?raw=true"
+                  alt="Maze Generator"
+                  hash={"LsO{LXoe.ij]afWXofj?t$j?a2jc"}
+                />
+              </a>
+              <div className="card-body">
+                <p className="card-text">
+                  <em> Maze Generator </em> - This is a simple maze generator
+                  that uses backtracking to carve passages on a grid. The solver
+                  uses an A* pathfinding algorithm to find the shortest distance
+                  from start to finish. This was made using p5js and was
+                  inspired by The BuckBlog&apos;s recursive backtracking blog
+                  post.
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button
+                      type="button"
+                      onClick={() => (window.location.href = "./#/mazegen")}
+                      className="btn btn-sm btn-outline-primary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        window.open(
+                          "https://aguizaro.github.io/MazeGenerator/",
+                          "_blank",
+                          "noreferrer"
+                        )
+                      }
+                      className="btn btn-sm btn-outline-success"
+                    >
+                      Source
+                    </button>
+                  </div>
+                  <small className="text-muted">MAY 2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="col-md-5"></div>
         </div>
       </div>

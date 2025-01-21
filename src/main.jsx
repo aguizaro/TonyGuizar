@@ -14,6 +14,8 @@ import InTheRough from "./components/intherough/intherough.jsx";
 import stickerPAD from "./components/stickerpad/stickerpad.jsx";
 import Chinatown from "./components/chinatown/chinatown.jsx";
 import ArticleGen from "./components/ArticleGen/ArticleGen.jsx";
+import ProdTimer from "./components/prodtimer/prodtimer.jsx";
+import MazeGen from "./components/mazegen/mazegen.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -29,6 +31,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/articlegen" Component={ArticleGen} />
         <Route path="/chinatown" Component={Chinatown} />
         <Route path="/stickerpad" Component={stickerPAD} />
+        <Route path="/prodtimer" Component={ProdTimer} />
+        <Route path="/mazegen" Component={MazeGen} />
       </Routes>
       <Footer />
     </HashRouter>
