@@ -49,6 +49,7 @@ const LazyVideo = ({ src, hash, poster, alt, loop }) => {
         <video
           className="vid"
           controls
+          preload="metadata"
           poster={poster}
           loop={loop ? true : false}
         >

@@ -8,13 +8,13 @@ const ProdTimer = () => {
         <h1 className="text-center display-4" id="prodtimer-title">
           Productivity Timer
         </h1>
-        <div className="media-row">
+        <div className="media-row" id="prodtimer-vid-row">
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/PT1.mp4?raw=true"
             alt="Productivity Timer Demo"
             hash={"LHAogdsmj:S6pfS|j^som%sCV@XN"}
             poster={
-              "https://github.com/aguizaro/TonyGuizar/blob/main/public/img/PT0.png?raw=true"
+              "https://github.com/aguizaro/TonyGuizar/blob/main/public/img/PT0-Poster.png?raw=true"
             }
           ></LazyVideo>
         </div>
@@ -44,6 +44,28 @@ const ProdTimer = () => {
             I plan to continue improving this tool and adding new features to
             make it even more useful for myself and others who struggle with
             time management.
+          </p>
+
+          <p className="prodtimer-text">
+            You can check out my{" "}
+            <a
+              href="https://github.com/aguizaro/ProductivityTimer/"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+              rel="noreferrer"
+            >
+              source code
+            </a>{" "}
+            and try the{" "}
+            <a
+              href="https://aguizaro.github.io/ProductivityTimer/"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+              rel="noreferrer"
+            >
+              live demo
+            </a>
+            .
           </p>
         </div>
       </div>
