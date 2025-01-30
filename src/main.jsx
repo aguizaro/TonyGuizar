@@ -16,6 +16,7 @@ import Chinatown from "./components/chinatown/chinatown.jsx";
 import ArticleGen from "./components/ArticleGen/ArticleGen.jsx";
 import ProdTimer from "./components/prodtimer/prodtimer.jsx";
 import MazeGen from "./components/mazegen/mazegen.jsx";
+import lilghost from "./components/lilghost/lilghost.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -33,6 +34,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/stickerpad" Component={stickerPAD} />
         <Route path="/prodtimer" Component={ProdTimer} />
         <Route path="/mazegen" Component={MazeGen} />
+        <Route path="/lilghost" Component={lilghost} />
       </Routes>
       <Footer />
     </HashRouter>

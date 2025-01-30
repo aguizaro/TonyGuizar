@@ -66,7 +66,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
           <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/futplanner">
@@ -206,51 +205,6 @@ const Projects = () => {
           </div>
           <div className="col-md-5">
             <div className="card mb-4 box-shadow">
-              <a href="./#/stickerPAD">
-                <LazyImage
-                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP1.png?raw=true"
-                  alt="stickerPAD"
-                  hash={"LRFhh$^i0K9d}@$%ELNG0dI;-Ws+"}
-                />
-              </a>
-              <div className="card-body">
-                <p className="card-text">
-                  <em> stickerPAD </em> is a sketch pad program crafted with
-                  Typescript and developed using Vite. It offers a creative
-                  space for users to draw and express themselves. Enjoy the
-                  playful addition of emoji stickers to add a touch of fun to
-                  your sketches!
-                </p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="btn-group">
-                    <button
-                      type="button"
-                      onClick={() => (window.location.href = "./#/stickerPAD")}
-                      className="btn btn-sm btn-outline-primary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() =>
-                        window.open(
-                          "https://aguizaro.github.io/stickerPAD/",
-                          "_blank",
-                          "noreferrer"
-                        )
-                      }
-                      className="btn btn-sm btn-outline-success"
-                    >
-                      Demo
-                    </button>
-                  </div>
-                  <small className="text-muted">OCT 2023</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-5">
-            <div className="card mb-4 box-shadow">
               <a href="./#/prodtimer">
                 <LazyImage
                   src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/PT0.png?raw=true"
@@ -294,7 +248,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
           <div className="col-md-5">
             <div className="card mb-4 box-shadow">
               <a href="./#/mazegen">
@@ -341,7 +294,93 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-5"></div>
+          <div className="col-md-5">
+            <div className="card mb-4 box-shadow">
+              <a href="./#/lilghost">
+                <LazyImage
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/LG1.png?raw=true"
+                  alt="Lil Ghost"
+                  hash={"L1P%S1?IEl?F^%NiaIRP00s;Mvbw"}
+                />
+              </a>
+              <div className="card-body">
+                <p className="card-text">
+                  <em> Lil Ghost </em> - Is a prototype I made for a arcade
+                  style, one-button game.
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button
+                      type="button"
+                      onClick={() => (window.location.href = "./#/mazegen")}
+                      className="btn btn-sm btn-outline-primary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/aguizaro/CMPM170-P2-GHOST/tree/main/GhostGame",
+                          "_blank",
+                          "noreferrer"
+                        )
+                      }
+                      className="btn btn-sm btn-outline-success"
+                    >
+                      Source
+                    </button>
+                  </div>
+                  <small className="text-muted">MAY 2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5">
+            <div className="card mb-4 box-shadow">
+              <a href="./#/stickerPAD">
+                <LazyImage
+                  src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/SP1.png?raw=true"
+                  alt="stickerPAD"
+                  hash={"LRFhh$^i0K9d}@$%ELNG0dI;-Ws+"}
+                />
+              </a>
+              <div className="card-body">
+                <p className="card-text">
+                  <em> stickerPAD </em> is a sketch pad program crafted with
+                  Typescript and developed using Vite. It offers a creative
+                  space for users to draw and express themselves. Enjoy the
+                  playful addition of emoji stickers to add a touch of fun to
+                  your sketches!
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <button
+                      type="button"
+                      onClick={() => (window.location.href = "./#/stickerPAD")}
+                      className="btn btn-sm btn-outline-primary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        window.open(
+                          "https://aguizaro.github.io/stickerPAD/",
+                          "_blank",
+                          "noreferrer"
+                        )
+                      }
+                      className="btn btn-sm btn-outline-success"
+                    >
+                      Demo
+                    </button>
+                  </div>
+                  <small className="text-muted">OCT 2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
