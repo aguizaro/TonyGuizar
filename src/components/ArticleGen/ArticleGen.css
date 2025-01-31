@@ -12,29 +12,22 @@
     background-color: var(--bs-custom-color-border-subtle);
 }
 
-.media-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
-    background-color: var(--bs-custom-color-border-subtle);
-    border-radius: 20px;
-}
-
 #articlegen-jumbotron {
     margin-top: 30px;
+}
+
+#articlegen-meda-row {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
     .articlegen-media {
         width: 100%;
         margin: 0 10px;
-    }
-
-    .media-row {
-        flex-direction: column;
     }
 
 }

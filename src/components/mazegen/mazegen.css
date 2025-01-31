@@ -16,14 +16,17 @@
     margin-top: 30px;
 }
 
+#mazegen-media-row {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .mazegen-media {
         width: 100%;
         margin: 0 10px;
     }
-
-    .media-row {
-        flex-direction: column;
-    }
-
 }

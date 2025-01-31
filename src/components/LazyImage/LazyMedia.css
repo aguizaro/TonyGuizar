@@ -1,6 +1,12 @@
 .media-container {
     width: 100% !important;
     height: auto !important;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--bs-custom-color-border-subtle);
+    display: flex;
+    justify-content: space-around;
 }
 
 .blurhash {
@@ -21,4 +27,13 @@
 .lazy-img {
     width: 100%;
     border-radius: 20px;
+}
+
+.vid {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: contain;
+    background-color: #000;
+
 }

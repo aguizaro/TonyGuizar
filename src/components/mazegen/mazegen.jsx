@@ -8,7 +8,7 @@ const MazeGen = () => {
         <h1 className="text-center display-4" id="mazegen-title">
           Maze Generator
         </h1>
-        <div className="media-row">
+        <div className="media-row" id="mazegen-media-row">
           <a href="https://aguizaro.github.io/MazeGenerator/">
             <LazyImage
               src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/MG0.png?raw=true"

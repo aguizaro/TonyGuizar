@@ -8,7 +8,7 @@ const ArticleGen = () => {
         <h1 className="text-center display-4" id="articlegen-title">
           Satirical Article Generator
         </h1>
-        <div className="media-row">
+        <div className="media-row" id="articlegen-meda-row">
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/AG2.png?raw=true"
             hash="LMBq0dRjWBof?^j[offk9ExbofWB"

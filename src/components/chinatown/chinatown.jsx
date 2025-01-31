@@ -8,7 +8,7 @@ const Chinatown = () => {
         <h1 className="text-center display-4" id="chinatown-title">
           Chinatown 1974
         </h1>
-        <div className="media-row">
+        <div className="media-row chinatown-media-row">
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT0.png?raw=true"
             hash={"LSFs[]jZbdj]oNfki^jZPXbIkDbH"}
@@ -106,19 +106,17 @@ const Chinatown = () => {
             !
           </p>
         </div>
-        <div className="media-row">
+        <div className="media-row chinatown-media-row">
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT2.gif?raw=true"
             hash="LFAyc15F?WP_[wF_wgr@[cFw$7ah"
             alt="Chinatown"
-            className="chinatown-media"
           />
 
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/CT3.gif?raw=true"
             hash="LFA-hfD;%KM*Eb$~N2t3.iS*xBNL"
             alt="Chinatown"
-            className="chinatown-media"
             loading="lazy"
           />
         </div>

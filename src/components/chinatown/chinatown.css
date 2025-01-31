@@ -4,36 +4,27 @@
     color: var(--bs-custom-color-text-emphasis);
 }
 
-.media-row img {
-    padding: 5px;
-    height: auto;
-    margin: 0;
-    background-color: var(--bs-custom-color-border-subtle);
-}
-
-.media-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
-    background-color: var(--bs-custom-color-border-subtle);
-    border-radius: 20px;
-}
-
 #chinatown-jumbotron {
     margin-top: 30px;
+}
+
+.chinatown-media-row {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.chinatown-media {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
     .chinatown-media {
         width: 100% !important;
         margin: 0 10px !important;
-    }
-
-    .media-row {
-        flex-direction: column;
     }
 
 }

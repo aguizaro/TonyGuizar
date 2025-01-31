@@ -8,13 +8,13 @@ const lilghost = () => {
         <h1 className="text-center display-4" id="lilghost-title">
           Lil Ghost
         </h1>
-        <div className="media-row">
+        <div className="media-row" id="lilghost-vid-row">
           <LazyVideo
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/LG0.mp4?raw=true"
             alt="Lil Ghostr Demo"
             hash={"L1P%S1?IEl?F^%NiaIRP00s;Mvbw"}
             poster=""
-          ></LazyVideo>
+          />
         </div>
         <div className="jumbotron" id="lilghost-jumbotron">
           <p className="lilghost-text">
@@ -60,7 +60,7 @@ const lilghost = () => {
             playtests, I noticed this pushed the player to tap the button very
             often and switch directions very rapidly in order to avoid the
             obstacles. Players often lost the game very quickly and re-played
-            multiple times in an effort to improve their hi-score. This is
+            multiple times in an effort to improve their high score. This is
             exactly the player experience I was going for and I think it works
             really well as an endless runner.
           </p>

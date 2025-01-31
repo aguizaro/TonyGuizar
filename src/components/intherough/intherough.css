@@ -5,25 +5,6 @@
 
 }
 
-.media-row .media-container {
-    width: 50%;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 10px 0;
-    background-color: var(--bs-custom-color-border-subtle);
-}
-
-.media-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(16, 0, 0, 0.4);
-    background-color: var(--bs-custom-color-border-subtle);
-    border-radius: 20px;
-}
-
 #intherough-jumbotron {
     margin-top: 30px;
 }
@@ -33,9 +14,4 @@
         width: 100%;
         margin: 0 10px;
     }
-
-    .media-row {
-        flex-direction: column;
-    }
-
 }

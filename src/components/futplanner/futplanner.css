@@ -45,65 +45,18 @@
     margin: 10px;
 }
 
-.mobile .vid {
-    width: 100%;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 10px;
-}
-
-.mobile .media-container {
-    width: 50% !important;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 10px;
-}
 
 
-@media (max-width: 1100px) {
-
-    .mobile {
-        flex-direction: column;
-    }
-
-    .mobile .media-container {
-        width: 100% !important;
-        margin: 10px 0 !important;
-    }
-
-    .mobile .vid {
-        width: 100%;
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .futplanner-media {
-        width: 100%;
-    }
-
-    .mobile {
-        flex-direction: row;
-    }
-
-    .mobile .media-container {
-        width: 100% !important;
-        margin: 10px 0 !important;
-    }
-
-    .mobile .vid {
-        width: 100%;
-        margin: 10px 0;
-    }
-
+@media (max-width: 1000px) {
     .futplanner-content {
         flex-direction: column;
     }
 
-
-
     #futplanner-jumbotron {
+        width: 100%;
+    }
+
+    .futplanner-media {
         width: 100%;
     }
 }
