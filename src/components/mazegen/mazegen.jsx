@@ -21,7 +21,7 @@ const MazeGen = () => {
             alt="Maze Generator Demo"
             hash={"LHAogdsmj:S6pfS|j^som%sCV@XN"}
             poster=""
-          ></LazyVideo>
+          />
         </div>
         <div className="jumbotron" id="mazegen-jumbotron">
           <p className="mazegen-text">
