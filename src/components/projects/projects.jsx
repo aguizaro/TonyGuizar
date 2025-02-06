@@ -143,7 +143,7 @@ const Projects = () => {
                       type="button"
                       onClick={() =>
                         window.open(
-                          "https://aguizaro.github.io/ArticleGenerator/",
+                          "https://letsgeneratearticles.com/",
                           "_blank",
                           "noreferrer"
                         )
@@ -331,7 +331,7 @@ const Projects = () => {
                       Source
                     </button>
                   </div>
-                  <small className="text-muted">MAY 2024</small>
+                  <small className="text-muted">NOV 2023</small>
                 </div>
               </div>
             </div>

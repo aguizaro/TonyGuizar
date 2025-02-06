@@ -6,7 +6,7 @@ const ArticleGen = () => {
     <div id="articlegen">
       <div className="container" id="articlegen-body">
         <h1 className="text-center display-4" id="articlegen-title">
-          Satirical Article Generator
+          Satirical News Article Generator
         </h1>
         <div className="media-row" id="articlegen-meda-row">
           <LazyImage
@@ -113,7 +113,17 @@ const ArticleGen = () => {
           <p className="articlegen-text">
             The backend API service receives an access key and news category
             string then responds with the generated article title, content, and
-            image as a base64 encoded string. Deployed on an AWS{" "}
+            image as a base64 encoded string. This app is a full stack web app
+            containerized with{" "}
+            <a
+              href="https://www.docker.com/"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+              rel="norefer"
+            >
+              Docker
+            </a>{" "}
+            and deployed on an AWS{" "}
             <a
               href="https://aws.amazon.com/lightsail/"
               target="_blank"
@@ -122,22 +132,31 @@ const ArticleGen = () => {
             >
               Lightsail
             </a>{" "}
-            VPS with SSL certificates, the service allows HTTPS requests from
-            the frontend site, hosted on Github{" "}
+            VPS and{" "}
             <a
-              href="https://pages.github.com/"
+              href="https://traefik.io/"
               target="_blank"
               style={{ textDecoration: "none" }}
               rel="norefer"
             >
-              Pages
-            </a>
-            .
+              Traefik
+            </a>{" "}
+            as a reverse proxy to route requests to the appropriate service. I
+            am using{" "}
+            <a
+              href="https://letsencrypt.org/"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+              rel="norefer"
+            >
+              Let&apos;s Encrypt
+            </a>{" "}
+            to secure the connection with SSL certificates.
           </p>
           <p className="articlegen-text">
             Feel free to check out the{" "}
             <a
-              href="https://aguizaro.github.io/ArticleGenerator/"
+              href="https://letsgeneratearticles.com/"
               target="_blank"
               style={{ textDecoration: "none" }}
               rel="norefer"
