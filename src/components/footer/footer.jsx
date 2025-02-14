@@ -22,7 +22,7 @@ const Footer = () => {
       <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
         <div className="icons">
           <a
-            href="https://www.linkedin.com/in/antonioguizarorozco/"
+            href="https://www.linkedin.com/in/tonyguizar/"
             target="_blank"
             rel="noreferrer"
           >
