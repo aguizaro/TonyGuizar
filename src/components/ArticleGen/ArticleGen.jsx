@@ -11,12 +11,12 @@ const ArticleGen = () => {
         <div className="media-row" id="articlegen-meda-row">
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/AG2.png?raw=true"
-            hash="LMBq0dRjWBof?^j[offk9ExbofWB"
+            hash="LCB3vi~WEKWTMdMdnNxZ.S%gwuw["
             alt="articlegen"
           />
           <LazyImage
             src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/AG1.png?raw=true"
-            hash="LOEo[K%0V@tS~qxtaeog00o#bHV?"
+            hash="L15=R-;+DgTWx]r=oztS}{%}x{#t"
             alt="articlegen"
           />
         </div>

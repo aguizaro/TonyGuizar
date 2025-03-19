@@ -117,7 +117,7 @@ const Projects = () => {
                 <LazyImage
                   src="https://github.com/aguizaro/TonyGuizar/blob/main/public/img/AG0.png?raw=true"
                   alt="AlriteGen"
-                  hash={"L04_tiof00ay%Mj[M{ay00WB~qof"}
+                  hash={"L36[Euxu00j@-nt7o$t700t7?df8"}
                 />
               </a>
               <div className="card-body">
