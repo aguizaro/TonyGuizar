@@ -17,6 +17,7 @@ import ArticleGen from "./components/ArticleGen/ArticleGen.jsx";
 import ProdTimer from "./components/prodtimer/prodtimer.jsx";
 import MazeGen from "./components/mazegen/mazegen.jsx";
 import lilghost from "./components/lilghost/lilghost.jsx";
+import Resume from "./components/resume/resume.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" Component={Home} />
         <Route path="/projects" Component={Projects} />
         <Route path="/about" Component={About} />
+        <Route path="/resume" Component={Resume} />
         <Route path="/contact" Component={Contact} />
         <Route path="/intherough" Component={InTheRough} />
         <Route path="/futplanner" Component={Futplanner} />
