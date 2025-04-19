@@ -11,3 +11,32 @@
     border-radius: 8px;
     max-width: 800px;
 }
+
+.resume-item h5 {
+    margin-bottom: 0.1rem;
+}
+
+.resume-header {
+    color: rgb(212, 184, 255);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 10rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    text-transform: uppercase;
+}
+
+.resume-header::before {
+    content: '';
+    flex-grow: 0.009;
+    height: 4px;
+    background-color: rgb(212, 184, 255);
+}
+
+.resume-header::after {
+    content: '';
+    flex-grow: 0.009;
+    height: 4px;
+    background-color: rgb(212, 184, 255);
+}

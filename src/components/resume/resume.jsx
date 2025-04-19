@@ -23,6 +23,8 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
+            
+            <hr className="resume-divider" />
 
             <div className="resume-header">
               <h2>Skills</h2>
@@ -39,6 +41,8 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
+
+            <hr className="resume-divider" />
 
             <div className="resume-header">
               <h2>Experience</h2>
@@ -80,6 +84,8 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
+
+            <hr className="resume-divider" />
 
             <div className="resume-header">
               <h2>Notable Projects</h2>
